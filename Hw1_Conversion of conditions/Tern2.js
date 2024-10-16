@@ -1,7 +1,6 @@
 //Конструкция if..else
 function manyChecks() {
   let a = Math.floor(Math.random() * 20) + 1;
-   a = 10;
   console.log(`a = ${a}`);
   let s = '';
   if (a > 10) {
@@ -36,7 +35,6 @@ console.log(manyChecks());
 // Конструкция swich
 function manyChecks() {
   let a = Math.floor(Math.random() * 20) + 1;
-  a = 10;
   console.log(`a = ${a}`);
   let s = '';
   switch (true) {
